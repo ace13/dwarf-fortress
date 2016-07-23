@@ -14,7 +14,7 @@ docker run --rm -it \
     -v /dev/snd:/dev/snd \
     -v "$HOME/.dwarf-fortress/data:/df_linux/data" \
     -v "$HOME/.dwarf-fortress/scripts:/df_linux/hack/scripts" \
-    dwarf-fortress:43_03
+    ananace/dwarf-fortress:43_03
 
 if $RESET_XHOST; then
     xhost -
